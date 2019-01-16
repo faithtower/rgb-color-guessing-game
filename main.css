@@ -87,6 +87,12 @@ button:hover{
 .blue{
     color: blue;
 }
+footer{
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    text-align: center;
+    color: #666;
+}
 
 @media (max-width:576px){
     #container{
