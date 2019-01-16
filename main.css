@@ -20,19 +20,21 @@ h1{
     width: 30%;
     background: purple;
     padding-bottom: 30%;
-    float: left;
     margin: 1.66%;
     border-radius: 15%;
     transition: background .5s;
     -webkit-transition: background .5s;
     -moz-transition: background .5s;
 }
-
 #container{
     width: 50%;
     margin: 20px auto;
-
 }
+.cont{
+    display: flex;
+    width: 100%;
+}
+
 #message{
     display: inline-block;
     width: 20%;
@@ -66,8 +68,31 @@ button:hover{
     background-color: steelblue;
 }
 
+.hint{
+    margin-top: 50px;
+    text-align: center;
+    color: #bbb;
+}
+
+.hint h4{
+    color: crimson;
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+
 @media (max-width:576px){
     #container{
         width: 100%;
+    }
+    #colorDisplay{
+        font-size: 100%;
     }
 }
