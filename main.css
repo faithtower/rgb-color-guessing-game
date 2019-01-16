@@ -65,3 +65,9 @@ button:hover{
     color: #fff;
     background-color: steelblue;
 }
+
+@media (max-width:576px){
+    #container{
+        width: 100%;
+    }
+}
